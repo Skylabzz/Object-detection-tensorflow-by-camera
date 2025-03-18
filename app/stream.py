@@ -92,4 +92,3 @@ def start_rtsp_stream(rtsp_url, camera_name, line_token, camera_message, room_na
         time.sleep(1 / fps)
     
     cap.release()
-    send_message_to_line(line_token,f"✅ กล้อง {camera_name} ถูกหยุดการทำงานโดยผู้ใช้")
